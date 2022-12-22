@@ -46,7 +46,9 @@ public class Expressions {
      */
     public boolean returnOr(boolean b1, boolean b2){
         
-        return((b1^b2 == true) ?  (b1&&b2==false) : false);
+        return (b1|b2 == true) ? true
+            : (b1&&b2 == false) ? false:
+            false;
             
     }
 
