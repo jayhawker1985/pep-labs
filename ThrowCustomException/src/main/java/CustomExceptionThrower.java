@@ -7,14 +7,18 @@ public class CustomExceptionThrower {
      * exceptions could provide valuable information for when something goes wrong in the application.
      *
      * I recommend looking at the test case for a good example of try/catch block usage, as well.
+     * @param Hi 
      */
-    public void throwCustomException() throws CustomException{
+    public void throwCustomException(String message) throws CustomException{
         try {
-            throw new CustomException("This is a custom message");
+            message = ""; //may throw exception
         }
         catch(Exception e) {
-            System.out.println(e);
+            throw new CustomException("An exception has occured!");
         }
+    }
+
+    public void CustomException() {
     }
 
 }
