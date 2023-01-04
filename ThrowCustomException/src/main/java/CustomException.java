@@ -5,10 +5,9 @@
  * Potentially, this class could also override some the behavior of Exception.
  */
 public class CustomException extends Exception{
-   public CustomException(){}
-   
-   public CustomException(String message){
+   CustomException(String message){
       super(message);
-   }   
+   }
 }
+
 
