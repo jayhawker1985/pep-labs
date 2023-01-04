@@ -2,7 +2,7 @@
 :lab_name: pep-labs
 :repo_path: "/workspace/revpro-cli/pep-labs"
 :previous_lab: 
-:current_lab: 
+:current_lab: Lists
 :origin_remote: https://github.com/jayhawker1985/pep-labs.git
 :repo_clone_folder: "/workspace/revpro-cli/pep-labs"
 :github_username: jayhawker1985
@@ -344,6 +344,7 @@
       removeFromListTest2: 0
       updatePositionTest1: 0
       updatePositionTest2: 0
+      customExceptionTest1: 0
   Sets:
     :Week: 3
     :Order: 5
