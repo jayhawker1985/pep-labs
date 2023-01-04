@@ -9,12 +9,12 @@ public class CustomExceptionThrower {
      * I recommend looking at the test case for a good example of try/catch block usage, as well.
      * @param Hi 
      */
-    public void throwCustomException(String message) throws CustomException{
+    public void throwCustomException(String Hi) throws CustomException{
         try {
-            message = ""; //may throw exception
+            throw new CustomException();
         }
-        catch(Exception e) {
-            throw new CustomException("An exception has occured!");
+        catch(CustomException e) {
+           
         }
     }
 
