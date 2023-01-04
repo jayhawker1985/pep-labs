@@ -12,7 +12,7 @@ public class CustomExceptionThrower {
         try {
             throw new CustomException("This is a custom message");
         }
-        catch(CustomException e) {
+        catch(Exception e) {
             System.out.println(e);
         }
     }
